@@ -16,6 +16,6 @@ def update_img_paths(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--file_path', default="/mnt/data/datasets/annotations/instances_default.json")
-    parser.add_argument('--prefix', default="/media/savan/Data/GitHub/detr/ddata")
+    parser.add_argument('--prefix', default="/mnt/data/datasets/images/")
     args = parser.parse_args()
     update_img_paths(args)
